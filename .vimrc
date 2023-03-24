@@ -78,6 +78,7 @@ noremap - <C-W>10-
 "NERDTree
 "F2开启和关闭树"
 map <F2> :NERDTreeToggle<CR>
+map <F5> :NERDTreeFind<CR>
 let NERDTreeChDirMode=1
 "显示书签"
 let NERDTreeShowBookmarks=1
@@ -91,12 +92,6 @@ let g:indentLine_enabled = 1
 let g:indentLine_setConceal = 1
 let g:indentLine_conceallevel = 2
 let g:indentLine_concealcursor = ' '
-
-
-"let g:instant_markdown_slow = 1
-"let g:instant_markdown_autostart = 0
-"map <F4> :InstantMarkdownPreview<CR>
-
 
 
 "YouCompleteMe
